@@ -1,0 +1,7 @@
+python learnhmm.py trainwords.txt index_to_word.txt index_to_tag.txt hmmprior.txt hmmemit.txt hmmtrans.txt
+
+
+python viterbi.py trainwords.txt index_to_word.txt index_to_tag.txt hmmprior.txt hmmemit.txt hmmtrans.txt predicted.txt metrics.txt
+
+
+python viterbi.py testwords.txt index_to_word.txt index_to_tag.txt hmmprior.txt hmmemit.txt hmmtrans.txt predicted.txt metrics.txt
